@@ -17,11 +17,10 @@ const Hero = () => {
         and resorts. Start your journey today.
       </p>
 
-
-      <form className="bg-white text-gray-500 rounded-lg px-6 py-4  flex flex-col md:flex-row max-md:items-start gap-4 max-md:mx-auto">
+      <form className="bg-white text-gray-500 rounded-lg px-6 py-4 mt-8 flex flex-col md:flex-row max-md:items-start gap-4 max-md:mx-auto">
         <div>
           <div className="flex items-center gap-2">
-           <img src={assets.calenderIcon} alt="" className='h-4' />
+            <img src={assets.calenderIcon} alt="" className="h-4" />
             <label htmlFor="destinationInput">Destination</label>
           </div>
           <input
@@ -33,15 +32,15 @@ const Hero = () => {
             required
           />
           <datalist id="destinations">
-            {cities.map((city, index) =>(
-              <option value={city} key={index}  />
+            {cities.map((city, index) => (
+              <option value={city} key={index} />
             ))}
           </datalist>
         </div>
 
         <div>
           <div className="flex items-center gap-2">
-           <img src={assets.calenderIcon} alt="" className='h-4' />
+            <img src={assets.calenderIcon} alt="" className="h-4" />
             <label htmlFor="checkIn">Check in</label>
           </div>
           <input
@@ -53,7 +52,7 @@ const Hero = () => {
 
         <div>
           <div className="flex items-center gap-2">
-             <img src={assets.calenderIcon} alt="" className='h-4' />
+            <img src={assets.calenderIcon} alt="" className="h-4" />
             <label htmlFor="checkOut">Check out</label>
           </div>
           <input
@@ -76,7 +75,7 @@ const Hero = () => {
         </div>
 
         <button className="flex items-center justify-center gap-1 rounded-md bg-black py-3 px-4 text-white my-auto cursor-pointer max-md:w-full max-md:py-1">
-           <img src={assets.searchIcon} alt="searchIcon" className='h-7' />
+          <img src={assets.searchIcon} alt="searchIcon" className="h-7" />
           <span>Search</span>
         </button>
       </form>
