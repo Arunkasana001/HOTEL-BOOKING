@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const HotelCard = () => {
+const HotelCard = ({room, index}) => {
   return (
-    <div>HotelCard</div>
+   <Link to={'/rooms/' + room.id} onClick={() => scrollTo(0, 0)} key={room._id}>
+   </Link>
   )
 }
 
