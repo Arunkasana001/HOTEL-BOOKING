@@ -12,8 +12,10 @@ const HotelCard = ({ room, index }) => {
       <img src={room.images[0]} alt="" />
       <p>Best Seller</p>
       <div>
-        <div>
-          <p>{room.hotel.name}</p>
+        <div className="flex items-center justify-between">
+          <p className="font-playfair text-xl font-medium text-grey-800">
+            {room.hotel.name}
+          </p>
           <div className="flex items-center gap-1">
             {" "}
             <img src={assets.starIconFilled} alt="star-icon" />
