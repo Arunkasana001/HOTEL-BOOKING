@@ -13,6 +13,5 @@ const FeaturedDestination = () => {
     </div>
   );
 };
-console.log(FeaturedDestination);
 
 export default FeaturedDestination;
