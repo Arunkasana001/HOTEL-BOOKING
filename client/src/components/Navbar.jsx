@@ -38,6 +38,7 @@ const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
   console.log(user);
+  console.log(navigate);
   
   useEffect(() => {
 
