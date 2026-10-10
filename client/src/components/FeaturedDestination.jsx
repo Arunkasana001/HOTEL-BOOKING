@@ -14,4 +14,5 @@ const FeaturedDestination = () => {
   );
 };
 
+
 export default FeaturedDestination;

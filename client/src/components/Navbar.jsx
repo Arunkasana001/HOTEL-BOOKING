@@ -37,6 +37,8 @@ const Navbar = () => {
   const { user } = useUser();
   const navigate = useNavigate();
   const location = useLocation();
+  console.log(user);
+  
   useEffect(() => {
 
     if(location.pathname !== '/'){
