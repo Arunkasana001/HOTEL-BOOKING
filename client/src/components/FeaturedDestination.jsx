@@ -20,4 +20,6 @@ const FeaturedDestination = () => {
   );
 };
 
+console.log(FeaturedDestination);
+
 export default FeaturedDestination;
