@@ -18,6 +18,6 @@ const FeaturedDestination = () => {
       </div>
     </div>
   );
-};
+}; 
 
 export default FeaturedDestination;
