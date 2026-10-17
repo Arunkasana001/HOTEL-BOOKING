@@ -2,7 +2,13 @@ import React from 'react'
 
 const ExclusiveOffers = () => {
   return (
-    <div>ExclusiveOffers</div>
+    <div>
+
+      <div>
+        <Title />
+        <button>View All offers</button>
+      </div>
+    </div>
   )
 }
 
