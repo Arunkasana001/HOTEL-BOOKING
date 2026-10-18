@@ -12,7 +12,6 @@ const Home = () => {
     </>
   );
 };
-console.log(FeaturedDestination);
-console.log(exclusiveOffers);
+
 
 export default Home;
