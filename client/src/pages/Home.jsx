@@ -11,5 +11,6 @@ const Home = () => {
     </>
   );
 };
+console.log(FeaturedDestination);
 
 export default Home;
