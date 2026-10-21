@@ -13,6 +13,6 @@ const Testimonial = () => {
   )
 
 };
-console
+console.log()
 
 export default Testimonial;
