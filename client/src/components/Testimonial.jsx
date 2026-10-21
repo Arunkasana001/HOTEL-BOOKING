@@ -13,5 +13,6 @@ const Testimonial = () => {
   )
 
 };
+console
 
 export default Testimonial;
