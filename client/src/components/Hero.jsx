@@ -82,5 +82,6 @@ const Hero = () => {
     </div>
   );
 };
+console.log(Hero);
 
 export default Hero;
