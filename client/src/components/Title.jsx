@@ -12,6 +12,6 @@ const Title = ({ title, subTitle, align, font }) => {
     </div>
   );
 };
-console.log
+console.log(title)
 
 export default Title;
