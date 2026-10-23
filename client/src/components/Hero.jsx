@@ -84,4 +84,4 @@ const Hero = () => {
 };
 
 export default Hero;
-log
+console.log(Hero);
