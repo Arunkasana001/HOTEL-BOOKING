@@ -53,4 +53,6 @@ const ExclusiveOffers = () => {
   );
 };
 
+console.log(exclusiveOffers);
+
 export default ExclusiveOffers;
