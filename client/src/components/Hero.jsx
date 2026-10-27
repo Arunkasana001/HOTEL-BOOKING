@@ -83,5 +83,7 @@ const Hero = () => {
   );
 };
 
+console.log(heroImage);
+
 export default Hero;
 
