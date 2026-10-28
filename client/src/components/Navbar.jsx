@@ -88,6 +88,7 @@ const Navbar = () => {
           Dasboard{" "}
         </button>
       </div>
+console.log(navbar);
 
       {/* Desktop Right */}
       <div className="hidden md:flex items-center gap-4">
