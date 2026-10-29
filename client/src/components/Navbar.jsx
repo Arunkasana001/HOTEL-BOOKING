@@ -177,4 +177,6 @@ const Navbar = () => {
   );
 };
 
+console.log(navigator);
+
 export default Navbar;
