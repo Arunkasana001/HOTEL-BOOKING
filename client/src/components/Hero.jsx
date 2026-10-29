@@ -84,6 +84,7 @@ const Hero = () => {
 };
 
 
+console.log(Hero);
 
 export default Hero;
 
