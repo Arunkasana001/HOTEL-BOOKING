@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "./Title";
+import { testimonials } from "../assets/assets";
 
 const Testimonial = () => {
   return (
@@ -11,6 +12,8 @@ const Testimonial = () => {
       
     </div> 
   )
+  console.log(testimonials);
+  
 
 };
 
